@@ -1,0 +1,11 @@
+@"
+# Modelos entrenados (archivos grandes)
+*.pt
+*.h5
+*.keras
+
+# Datasets e imágenes pesadas
+*.zip
+*.tar
+*.tar.gz
+"@ | Out-File -FilePath .gitignore -Encoding utf8
